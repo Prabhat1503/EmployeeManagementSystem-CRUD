@@ -18,13 +18,15 @@ This project is an Employee Management System that allows you to perform CRUD (C
 ## Installation
 To run this project locally, follow these steps:
 1. Clone the repository:
+   
    git clone https://github.com/Prabhat1503/EmployeeManagement.git
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+
    cd employee-management-system
-3. Install dependencies:
+5. Install dependencies:
 
    npm install
-5. Set up environment variables:
+6. Set up environment variables:
 - Create a .env file in the root directory.
 - Add the following environment variables:   
 
@@ -34,7 +36,10 @@ To run this project locally, follow these steps:
 
 5. Start the server:
 
-    npm start
+    node server.js
+
+    ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/3583aa38-e640-4f0a-9f12-61ef97c0127f)
+
 
 ## API Routes
 - GET /api/employee: Retrieve all employees.
@@ -43,10 +48,46 @@ To run this project locally, follow these steps:
 - PUT /api/employee/:id: Update details of an existing employee by ID.
 - DELETE /api/employee/:id: Delete an employee by ID.
 
-## 2. Access the Application in a Web Browser
+## Access the Application in a Web Browser
 - Once your application is running locally on localhost port 3000, open a web browser (such as Google Chrome, Firefox, or Microsoft Edge) and enter the following URL in the address bar:
 http://localhost:3000
+
+
+![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/04fac28e-6b06-4684-90c6-5ee964c79afb)
+
 - Press Enter to navigate to this URL. This should access your Node.js application running locally on port 3000.
+
+## Perform CRUD Operations
+- Add Employee
+
+  ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/b60572b9-0465-4642-8abb-97e2e944132a)
+
+
+  ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/64b14cc6-dc82-4b8d-a895-a7e01940316f)
+
+- Read Employee
+
+  ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/08df39d4-f7c8-4b50-8f69-bf74f9900235)
+
+- Update/Edit Employee
+
+  ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/e880c317-2fa7-4d41-8f53-dd61df952db7)
+
+
+  ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/492489c0-593d-4d1c-9626-d5daad943ed3)
+
+- Delete Employee
+
+
+  ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/e2431bcd-9d57-4691-ac53-82b459eceac3)
+
+
+  ![image](https://github.com/Prabhat1503/EmployeeManagementSystem-CRUD/assets/121659603/00407c73-7d54-465d-94b0-f1df3e1262ff)
+
+
+
+
+  
 
 ## Contributing
 Contributions to this project are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
