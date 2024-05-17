@@ -4,7 +4,7 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const path = require('path')
 const EmployeeRoute = require('./routes/employee')
-mongoose.connect('mongodb+srv://Prabhat282:H8XUU8yoUJ2Ylxjt@crud.i7h076g.mongodb.net/', {
+mongoose.connect('//your mongodb url//', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
